@@ -22,6 +22,7 @@ public class App {
                 case "cm = in":
                     System.out.print("Enter the value you want to convert: ");
                     inputValue = userInput.nextDouble();
+                    userInput.close();
                     if (inputValue == -1) {
                         break;
                     } else if (inputValue < 0) {
@@ -35,6 +36,7 @@ public class App {
                 case "km = miles":
                     System.out.print("Enter the value you want to convert: ");
                     inputValue = userInput.nextDouble();
+                    userInput.close();
                     if (inputValue == -1) {
                         break;
                     } else if (inputValue < 0) {
@@ -48,6 +50,7 @@ public class App {
                 case "kg = lb":
                     System.out.print("Enter the value you want to convert: ");
                     inputValue = userInput.nextDouble();
+                    userInput.close();
                     if (inputValue == -1) {
                         break;
                     } else if (inputValue < 0) {
@@ -61,6 +64,7 @@ public class App {
                 case "L = gal":
                     System.out.print("Enter the value you want to convert: ");
                     inputValue = userInput.nextDouble();
+                    userInput.close();
                     if (inputValue == -1) {
                         break;
                     } else if (inputValue < 0) {
